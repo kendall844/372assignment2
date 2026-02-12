@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+img {
+    max-width: 300px;
+    height: auto;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1 1 30%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#first,
+#intro,
+#resturant1 {
+    text-align: center;
+}
