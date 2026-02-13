@@ -1,55 +1,112 @@
-header{
-background-color: #dabedf;
-}
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    background-color: #f3e8ff;
+    background-color: #f2f8bc;
     color: #333333;
 }
 
 img {
-    max-width: 220px;
+    max-width: 210px;
     height: auto;
-}
-
-
-figcaption{
-    font-size: 4pt;
-    color: #666;
-    margin-top: 2px;
 }
 
 .card-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
-    flex-direction: row;
+    gap: 20px;
+    align-items: stretch;
 }
 
 .card {
+    display: flex;
     flex: 1 1 30%;
-    background-color: #dabedf;
-    padding: 15px;
+    background-color: #e3f371;
     border-radius: 8px;
     text-align: center;
     color: #333333;
-     flex-direction: row;
-      flex: 0 0 30%;
+    flex-direction: column;
+    padding: 13px;
+
 }
 
-#first,
-#intro,
+.card p {
+    margin-top: auto;
+}
+
+header {
+    background-color: #e3f371;
+    border-radius: 8px;
+}
+
+aside {
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+aside a {
+    text-decoration: none;
+    color: #333333;
+    font-size: large;
+}
+
+footer {
+    background-color: #e3f371;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 8pt;
+    padding: 2px;
+
+}
+
+.resturants {
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    max-width: 300px;
+}
+
+.dishes {
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
+article {
+    font-size: 10pt;
+}
+
+figcaption {
+    font-size: 8pt;
+    color: #666;
+    margin: auto;
+    text-align: center;
+    padding-left: 10px;
+    max-width: 300px;
+}
+
+
+
 #resturant1,
 #resturant2,
-#resturant3{
+#resturant3,
+#intro,
+#first {
+    max-width: 900px;
+    margin: auto;
     text-align: center;
-    justify-content: center;
+
 }
 
-@media (max-width: 768px) {
+
+
+@media (max-width: 800px) {
     .card {
-        flex: 1 1 100%;
+        flex: 1 1 80%;
     }
 }
