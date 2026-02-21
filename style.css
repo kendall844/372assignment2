@@ -13,7 +13,6 @@ img {
 .card-container {
     display: flex;
     justify-content: space-between;
-    flex-wrap: nowrap;
     gap: 20px;
     align-items: stretch;
 }
@@ -105,6 +104,32 @@ figcaption {
 
 }
 
+#favorites-summary {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #fff8dc;
+    border: 3px solid #e3f371;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#favorites-summary ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#favorites-summary li {
+    padding: 8px;
+    margin-bottom: 6px;
+    background-color: #fdf3b0;
+    border-radius: 6px;
+}
+
+.favorite-btn{
+    background:#f2f8bc;
+    border: 1px solid #333333;
+}
 
 
 @media (max-width: 800px) {
